@@ -2,6 +2,9 @@
 
 A Next.js application that displays users from JSONPlaceholder API and their associated tasks.
 
+## Live Demo
+[**View Live Application**](https://users-omega-rose.vercel.app/)
+
 ## Features
 
 - **Users List**: Browse all users with search functionality
