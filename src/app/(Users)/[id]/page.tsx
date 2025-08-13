@@ -53,6 +53,7 @@ const Page = () => {
   const completedCount = tasks?.filter((task) => task.completed).length || 0
   const totalCount = tasks?.length || 0
 
+  if (userError || tasksError) router.push('/')
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#1A1C1B] to-[#222]">
       {/* Header */}
