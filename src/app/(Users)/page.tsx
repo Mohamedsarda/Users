@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div className="bg-gradient-to-br from-[#1A1C1B] to-[#222] border border-[#333] shadow-2xl overflow-hidden">
       {/* Header */}
-      <div className="bg-gradient-to-r from-[#2A2E2E] to-[#242828] h-42 p-4 border-b border-[#333] fixed top-0 left-0 right-0 z-10">
+      <div className="bg-gradient-to-r from-[#2A2E2E] to-[#242828] h-32 md:h-42 p-4 border-b border-[#333] fixed top-0 left-0 right-0 z-10">
         <div className="flex items-center justify-between mb-6">
           <h1 className="text-3xl font-bold text-white flex items-center gap-4">
             <div className="md:p-4 p-2 bg-gradient-to-br from-[#95ff77]/20 to-[#555D58] rounded-full shadow-lg">
@@ -57,7 +57,7 @@ export default function Home() {
       </div>
 
       {/* Content */}
-      <div className="p-8 mt-42">
+      <div className="p-8 md:mt-42 mt-32">
         {isPending && (
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
             {[...Array(6)].map((_, i) => (
